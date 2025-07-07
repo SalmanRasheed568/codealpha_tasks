@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Real-Time Image Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <h1>Real-Time Image Gallery</h1>
+
+  <!-- Category Buttons -->
+  <div class="filters">
+    <button onclick="loadImages('nature')">Nature</button>
+    <button onclick="loadImages('technology')">Technology</button>
+    <button onclick="loadImages('animals')">Animals</button>
+    <button onclick="loadImages('people')">People</button>
+    <button onclick="loadImages('travel')">Travel</button>
+  </div>
+
+  <!-- Gallery Container -->
+  <div class="gallery" id="gallery"></div>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox">
+  <span class="close" onclick="closeLightbox()">&times;</span>
+  <img id="lightbox-img" class="lightbox-img" />
+  <div id="lightbox-credit" class="lightbox-credit"></div>
+  <button class="prev" onclick="changeImage(-1)">&#10094;</button>
+  <button class="next" onclick="changeImage(1)">&#10095;</button>
+</div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
