@@ -1,0 +1,41 @@
+# 📸 Real-Time Responsive Image Gallery
+
+This project is a modern, responsive, and dynamic **image gallery** built using HTML, CSS, and JavaScript. 
+It fetches **real-time images** from the **Unsplash API** based on categories like **nature, travel, people, animals, and technology**. 
+It features a **lightbox view**, **smooth transitions**, **image navigation**, and displays **photo credits** per Unsplash guidelines.
+
+
+
+## 🌟 Features
+
+- 🔍 Real-time image loading using the Unsplash API
+- 🧭 Category-based image filters (Nature, Travel, Animals, People, Tech)
+- 💡 Lightbox view with next/previous navigation
+- ✨ Hover effects and smooth zoom transitions
+- 📷 Automatically displays **photographer credit** and photo link
+- 📱 Fully **responsive** layout using CSS Grid and Flexbox
+- 🌙 Beautiful UI with modern design and animations
+
+---
+
+## 🔧 Tech Stack
+
+- **HTML5**
+- **CSS3** (Flexbox + Grid + Transitions)
+- **JavaScript (ES6)**
+- **Unsplash Developer API**
+
+
+## 🖼️ Live Demo
+
+> Coming Soon — (Deploy to GitHub Pages, Netlify, or Vercel)
+
+
+
+## 🛠️ Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/image-gallery.git
+cd image-gallery
