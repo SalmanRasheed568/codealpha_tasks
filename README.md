@@ -1,1 +1,126 @@
 # codealpha_tasks
+## PROJECT 1
+---
+
+# 🖼️ Image Gallery Web App
+
+A responsive image gallery web application created using HTML, CSS, and JavaScript. This simple yet elegant gallery allows users to view a collection of images in a grid layout and open them in an enlarged view via a lightbox-style effect.
+
+---
+
+## 🌐 Live Demo
+
+> *If deployed, you can add a live link here. Example:*
+> **[Live Demo](https://your-live-demo-link.com)**
+
+---
+
+## 📁 Project Structure
+
+```bash
+image gallery/
+│
+├── index.html          # Main HTML file
+├── style.css           # Stylesheet for layout and design
+└── script.js           # JavaScript for lightbox functionality
+```
+
+---
+
+## ✨ Features
+
+* 📷 Clean and modern image gallery layout
+* 💡 Clickable images open in a lightbox/modal view
+* 📱 Fully responsive design — works on mobile, tablet, and desktop
+* 🔄 Easy to add or replace images
+* 🧠 Simple JavaScript logic for interaction
+
+---
+
+## 💻 Technologies Used
+
+* **HTML5** – for the basic structure
+* **CSS3** – for layout and styling
+* **JavaScript** – for interactivity (image modal/lightbox)
+
+---
+
+## 🚀 Getting Started
+
+### 🔧 Prerequisites
+
+To run the project locally, you need:
+
+* A modern web browser (Chrome, Firefox, Safari, etc.)
+* A local web server (optional, or just open with a browser)
+
+### 📦 Run Locally
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/SalmanRasheed568/codealpha_tasks.git
+```
+
+2. Navigate to the project folder:
+
+```bash
+cd codealpha_tasks/image\ gallery
+```
+
+3. Open `index.html` in your browser.
+
+---
+
+## 🖼️ Customizing the Gallery
+
+To add or replace images:
+
+1. Open `index.html`.
+2. Locate the image container:
+
+```html
+<div class="gallery">
+  <img src="images/image1.jpg" alt="..." />
+  <img src="images/image2.jpg" alt="..." />
+  ...
+</div>
+```
+
+3. Add your own image tags or change the `src` attributes.
+
+---
+
+## 📱 Responsive Design
+
+The gallery layout adapts to different screen sizes using CSS flexbox/grid and media queries, providing a seamless experience across devices.
+
+---
+
+## 📌 Screenshots
+
+> (Optional) You can add screenshots of the gallery layout here for visual reference.
+
+---
+
+## 🙋‍♂️ Author
+
+**Salman Rasheed**
+GitHub: [@SalmanRasheed568](https://github.com/SalmanRasheed568)
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute.
+
+---
+
+## 🙌 Acknowledgements
+
+* Inspired by simple portfolio/gallery UI concepts
+* Basic modal/lightbox idea implemented using vanilla JavaScript
+
+---
+
+Would you like this turned into a `README.md` file or enhanced with screenshot previews or deploy instructions via GitHub Pages?
