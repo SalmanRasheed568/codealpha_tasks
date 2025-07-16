@@ -1,41 +1,124 @@
-# 📸 Real-Time Responsive Image Gallery
-
-This project is a modern, responsive, and dynamic **image gallery** built using HTML, CSS, and JavaScript. 
-It fetches **real-time images** from the **Unsplash API** based on categories like **nature, travel, people, animals, and technology**. 
-It features a **lightbox view**, **smooth transitions**, **image navigation**, and displays **photo credits** per Unsplash guidelines.
-
-
-
-## 🌟 Features
-
-- 🔍 Real-time image loading using the Unsplash API
-- 🧭 Category-based image filters (Nature, Travel, Animals, People, Tech)
-- 💡 Lightbox view with next/previous navigation
-- ✨ Hover effects and smooth zoom transitions
-- 📷 Automatically displays **photographer credit** and photo link
-- 📱 Fully **responsive** layout using CSS Grid and Flexbox
-- 🌙 Beautiful UI with modern design and animations
 
 ---
 
-## 🔧 Tech Stack
+# 🖼️ Image Gallery Web App
 
-- **HTML5**
-- **CSS3** (Flexbox + Grid + Transitions)
-- **JavaScript (ES6)**
-- **Unsplash Developer API**
+A responsive image gallery web application created using HTML, CSS, and JavaScript. This simple yet elegant gallery allows users to view a collection of images in a grid layout and open them in an enlarged view via a lightbox-style effect.
 
+---
 
-## 🖼️ Live Demo
+## 🌐 Live Demo
 
-> Coming Soon — (Deploy to GitHub Pages, Netlify, or Vercel)
+> *If deployed, you can add a live link here. Example:*
+> **[Live Demo](https://your-live-demo-link.com)**
 
+---
 
-
-## 🛠️ Getting Started
-
-### 1. Clone the repository
+## 📁 Project Structure
 
 ```bash
-git clone https://github.com/your-username/image-gallery.git
-cd image-gallery
+image gallery/
+│
+├── index.html          # Main HTML file
+├── style.css           # Stylesheet for layout and design
+└── script.js           # JavaScript for lightbox functionality
+```
+
+---
+
+## ✨ Features
+
+* 📷 Clean and modern image gallery layout
+* 💡 Clickable images open in a lightbox/modal view
+* 📱 Fully responsive design — works on mobile, tablet, and desktop
+* 🔄 Easy to add or replace images
+* 🧠 Simple JavaScript logic for interaction
+
+---
+
+## 💻 Technologies Used
+
+* **HTML5** – for the basic structure
+* **CSS3** – for layout and styling
+* **JavaScript** – for interactivity (image modal/lightbox)
+
+---
+
+## 🚀 Getting Started
+
+### 🔧 Prerequisites
+
+To run the project locally, you need:
+
+* A modern web browser (Chrome, Firefox, Safari, etc.)
+* A local web server (optional, or just open with a browser)
+
+### 📦 Run Locally
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/SalmanRasheed568/codealpha_tasks.git
+```
+
+2. Navigate to the project folder:
+
+```bash
+cd codealpha_tasks/image\ gallery
+```
+
+3. Open `index.html` in your browser.
+
+---
+
+## 🖼️ Customizing the Gallery
+
+To add or replace images:
+
+1. Open `index.html`.
+2. Locate the image container:
+
+```html
+<div class="gallery">
+  <img src="images/image1.jpg" alt="..." />
+  <img src="images/image2.jpg" alt="..." />
+  ...
+</div>
+```
+
+3. Add your own image tags or change the `src` attributes.
+
+---
+
+## 📱 Responsive Design
+
+The gallery layout adapts to different screen sizes using CSS flexbox/grid and media queries, providing a seamless experience across devices.
+
+---
+
+## 📌 Screenshots
+
+> (Optional) You can add screenshots of the gallery layout here for visual reference.
+
+---
+
+## 🙋‍♂️ Author
+
+**Salman Rasheed**
+GitHub: [@SalmanRasheed568](https://github.com/SalmanRasheed568)
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute.
+
+---
+
+## 🙌 Acknowledgements
+
+* Inspired by simple portfolio/gallery UI concepts
+* Basic modal/lightbox idea implemented using vanilla JavaScript
+
+---
+
