@@ -10,8 +10,9 @@ A responsive image gallery web application created using HTML, CSS, and JavaScri
 
 ## 🌐 Live Demo
 
-> *If deployed, you can add a live link here. Example:*
-> **[Live Demo](https://your-live-demo-link.com)**
+**[Live Demo](http://127.0.0.1:5500/index.html)**
+
+> *Note: This URL works only on your local machine while running a live server (e.g., with VS Code Live Server extension).*
 
 ---
 
@@ -52,7 +53,7 @@ image gallery/
 To run the project locally, you need:
 
 * A modern web browser (Chrome, Firefox, Safari, etc.)
-* A local web server (optional, or just open with a browser)
+* A local web server (e.g., VS Code Live Server extension)
 
 ### 📦 Run Locally
 
@@ -68,7 +69,13 @@ git clone https://github.com/SalmanRasheed568/codealpha_tasks.git
 cd codealpha_tasks/image\ gallery
 ```
 
-3. Open `index.html` in your browser.
+3. Open `index.html` in a live server (e.g., right-click > "Open with Live Server" in VS Code).
+
+4. Or manually open the link in your browser:
+
+```
+http://127.0.0.1:5500/index.html
+```
 
 ---
 
@@ -87,19 +94,13 @@ To add or replace images:
 </div>
 ```
 
-3. Add your own image tags or change the `src` attributes.
+3. Add your own image tags or update the `src` paths accordingly.
 
 ---
 
 ## 📱 Responsive Design
 
-The gallery layout adapts to different screen sizes using CSS flexbox/grid and media queries, providing a seamless experience across devices.
-
----
-
-## 📌 Screenshots
-
-> (Optional) You can add screenshots of the gallery layout here for visual reference.
+The gallery layout uses CSS Flexbox/Grid and media queries to automatically adjust for different screen sizes, ensuring usability across devices.
 
 ---
 
@@ -112,15 +113,13 @@ GitHub: [@SalmanRasheed568](https://github.com/SalmanRasheed568)
 
 ## 📄 License
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). You can freely use, modify, and distribute it.
 
 ---
 
 ## 🙌 Acknowledgements
 
-* Inspired by simple portfolio/gallery UI concepts
-* Basic modal/lightbox idea implemented using vanilla JavaScript
+* Basic structure inspired by modern gallery layouts
+* Lightbox-style interaction built using vanilla JavaScript
 
 ---
-
-Would you like this turned into a `README.md` file or enhanced with screenshot previews or deploy instructions via GitHub Pages?
